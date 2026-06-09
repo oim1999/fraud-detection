@@ -1,6 +1,6 @@
 # Fraud Detection – Adey Innovations Inc.
 
-> **KAIM Week 5 & 6 Challenge**  
+> **Week 5 & 6 Challenge**  
 > Improving fraud detection for e-commerce and bank credit card transactions.
 
 ---
@@ -18,67 +18,30 @@ Both datasets are **highly imbalanced** — the minority (fraud) class is a smal
 
 ---
 
-## Repository Structure
-
-```
-fraud-detection/
-├── data/               ← add to .gitignore — never commit raw data
-│   ├── raw/            ← place original CSV files here
-│   └── processed/      ← cleaned & engineered data saved here
-├── notebooks/          ← one notebook per task stage
-│   ├── eda_fraud_data.py         # Task 1 – EDA on e-commerce data
-│   ├── eda_creditcard.py         # Task 1 – EDA on credit card data
-│   └── feature_engineering.py   # Task 1 – Features, scaling, SMOTE
-├── src/
-│   └── preprocessing.py         # Reusable helper functions
-├── models/             ← saved model artefacts (.pkl files)
-├── scripts/            ← standalone utility scripts
-├── tests/              ← unit tests
-├── requirements.txt
-└── README.md
-```
-
-> **Note on notebooks:** The `.py` files in `notebooks/` use `# %%` cell markers,  
-> which VS Code's Jupyter extension recognises as notebook cells.  
-> Open them in VS Code → right-click → *Open as Jupyter Notebook*.  
-> Or convert with: `pip install jupytext && jupytext --to notebook notebooks/eda_fraud_data.py`
-
----
 
 ## Setup
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<your-username>/fraud-detection.git
+git clone https://github.com/oim1999/fraud-detection.git
 cd fraud-detection
 
 # 2. Create and activate a virtual environment (recommended)
-python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+py -3.11 -m venv .venv
+.venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Add raw data files to data/raw/
+# 4. Added raw data files to data/raw/
 #    - Fraud_Data.csv
 #    - IpAddress_to_Country.csv
 #    - creditcard.csv
 
-# 5. Open notebooks in VS Code or Jupyter
-jupyter notebook
 ```
 
 ---
 
-## Task Progress
-
-| Task | Description | Status |
-|------|-------------|--------|
-| Task 1 | Data Analysis & Preprocessing | ✅ Complete |
-| Task 2 | Model Building & Training | 🔄 In Progress |
-| Task 3 | Model Explainability (SHAP) | ⏳ Pending |
-
----
 
 ## Key Findings (Task 1 Summary)
 
@@ -110,5 +73,5 @@ jupyter notebook
 
 ## Author
 
-**[Your Name]**  
-KAIM – AI Mastery Program, Cohort [X]
+**[Alaa Ali]**  
+
