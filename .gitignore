@@ -1,0 +1,36 @@
+data/
+
+# Saved model artifacts
+models/*.pkl
+models/*.joblib
+models/*.json
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# VS Code settings (optional – remove if you want to share)
+.vscode/
+
+# macOS junk
+.DS_Store
+
+# Generated figures (optional – keep if you want plots in the repo)
+notebooks/figures/
+
+# Environment files
+*.env
+.env.*
