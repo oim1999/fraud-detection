@@ -1,9 +1,9 @@
 data/
 
 # Saved model artifacts
-models/*.pkl
-models/*.joblib
-models/*.json
+#models/*.pkl
+#models/*.joblib
+#models/*.json
 
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/
