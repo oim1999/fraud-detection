@@ -34,9 +34,7 @@ py -3.11 -m venv .venv
 pip install -r requirements.txt
 
 # 4. Added raw data files to data/raw/
-#    - Fraud_Data.csv
-#    - IpAddress_to_Country.csv
-#    - creditcard.csv
+
 
 ```
 
@@ -73,5 +71,5 @@ pip install -r requirements.txt
 
 ## Author
 
-**[Alaa Ali]**  
+**Alaa Ali**  
 
